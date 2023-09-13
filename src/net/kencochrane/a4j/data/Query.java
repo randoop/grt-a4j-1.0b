@@ -341,7 +341,7 @@ public class Query {
         return new String(buffer);
         /*
           http://xml.amazon.com/onca/xml3?ShoppingCart=add&f=xml&
-          dev-t=[ [developer’s token goes here]
+          dev-t=[ [developer's token goes here]
           &t=[associates ID goes here]
           &Asin.[ASIN goes here]=[quantity goes here]
           &CartId=[cart ID goes here] &Hmac=[HMAC goes here]
@@ -363,7 +363,7 @@ public class Query {
         return new String(buffer);
         /*
           http://xml.amazon.com/onca/xml3?ShoppingCart=clear
-          &f=xml& dev-t=[ [developer’s token goes here]
+          &f=xml& dev-t=[ [developer's token goes here]
           &t=[associates ID goes here]
           &CartId=[cart ID goes here]
           &Hmac=[HMAC goes here]
@@ -385,7 +385,7 @@ public class Query {
         return new String(buffer);
         /*
           http://xml.amazon.com/onca/xml3?ShoppingCart=get
-          &f=xml& dev-t=[ [developer’s token goes here]
+          &f=xml& dev-t=[ [developer's token goes here]
           &t=[associates ID goes here]
           &CartId=[cart ID goes here]
           &Hmac=[HMAC goes here]
@@ -411,7 +411,7 @@ public class Query {
         return new String(buffer);
         /*
           http://xml.amazon.com/onca/xml3?ShoppingCart=modify
-          &f=xml& dev-t=[ [developer’s token goes here]
+          &f=xml& dev-t=[ [developer's token goes here]
           &t=[associates ID goes here]
           &Item.[itemID goes here]=[quantity goes here]
           &CartId=[cart ID goes here]

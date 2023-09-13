@@ -74,7 +74,7 @@ public class A4j {
     /**
      * A keyword is a general search term that is used to find products in the Amazon.com
      * catalog. Often, more than one keyword is used at the same time to form a short phrase
-     * (such as “finance software”).
+     * (such as finance software).
      *
      * @since 1.0
      * @param searchTerm the term you want to search for
@@ -196,8 +196,8 @@ public class A4j {
     /**
      * There are thousands of third-party sellers who offer their own products on the Amazon.com Web site.
      * If you are interested in receiving an XML list of products offered by a specific seller, you simply
-     * need to plug that seller’s unique ID into the request format below. To find the seller ID, visit the
-     * seller’s “member profile” page. The ID appears in that page’s URL after the “/ts/customer-glance” string.
+     * need to plug that seller's unique ID into the request format below. To find the seller ID, visit the
+     * seller's member profile page. The ID appears in that page's URL after the /ts/customer-glance string.
      * For example, in the following URL, the seller ID would be A2OFEB6YLE4L1K.
      *
      * http://s1.amazon.com/exec/varzea/ts/customer-glance/A2OFEB6YLE4L1K
