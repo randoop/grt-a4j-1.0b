@@ -1,0 +1,43 @@
+# a4j Config file
+# Ken Cochrane
+# 07-31-2003
+# www.KenCochrane.net/a4j/
+#
+# This configuration file should be at the root directory of your class files.
+
+# This is where the Files that a4j downloads from amazon are going to be stored
+# Make sure if you are on windows you put the / slash and not the \ slash also
+# try not to put it in a directory where there is a space in the name, it might
+# confuse Java. Make sure the directory exists and that you have permissions to
+# write to the directory. It needs a trailing / like so
+# C:/Amazon/cache/ or /usr/local/amazon/cache/
+# Required
+
+cacheDir=G:/KenAndJames/Stores/JAVA/Amazon/cache/
+
+
+# The cacheLife is how long in milliseconds that you want to hold onto the XML file for in
+# your cache. Amazon says to replace files every 24 hours. 86400000 is 24 hours. If you have
+# the file in your cache and it is older then this it will try and download a new copy. If for
+# some reason it can't get a new copy(AWS is down) it will use the cached copy, old is better then nothing
+# Required
+
+cacheLife=86400000
+
+# This is the url for the amazonServer that you want to connect too. The default is
+# set to aws version 3 in the us. I haven't tried any other locales yet, if you get it
+# to work let me know.
+# Required
+
+amazonServerURL=http://xml.amazon.com/onca/xml3
+
+# This is your Amazon associateID, If you have one, put it here if not leave mine.
+# Required
+
+associateID=popcornmonste2-20
+
+# This is used by one of the utility methods to help you create friendly URL. using the
+# following seperator - would turn this "ken is cool" into "ken-is-cool".
+# Not required unless you want to use the utility method.
+
+URLSeperator=-

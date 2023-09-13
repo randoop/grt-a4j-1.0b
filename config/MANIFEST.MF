@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Extension-Name: a4j
+Specification-Title: a4j
+Specification-Vendor: Ken Cochrane
+Specification-Version: 1.0
+Implementation-Title: a4j
+Implementation-Vendor: Ken Cochrane
+Implementation-Vendor-Id: net.kencochrane
+Implementation-Version: 1.0
+Class-Path: jox116.jar
+

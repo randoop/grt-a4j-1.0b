@@ -1,0 +1,1 @@
+java -classpath ../dist/a4j.jar;../jars/jox116.jar; GetAsinExample
