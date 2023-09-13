@@ -70,7 +70,6 @@ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
      <jar destfile="${dist}/a4j.jar" manifest="${config}/MANIFEST.MF">
          <fileset dir="${build}" />
          <fileset dir="." includes="License.txt" />
-         <metainf file="${jars}/${jox_jar}" > </metainf>
 
      </jar>
  </target>
